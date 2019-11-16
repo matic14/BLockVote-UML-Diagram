@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-16T07:21:58.691Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="ogLppLLbrI49NXUZO2vk" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-16T07:28:33.077Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="rmMGDETP5CDWOnqBjri2" version="12.2.6" type="github" pages="1">
   <diagram id="UWl-4crLRYwF7wUx09or" name="Page-1">
-    <mxGraphModel dx="1024" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1463" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -13,7 +13,7 @@
         <mxCell id="BBlOOyhZ7gnegx1fQNet-5" value="Login" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#FFFFFF;fontColor=#030000;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="520" y="267.5" width="160" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="BBlOOyhZ7gnegx1fQNet-6" value="entry / ask to select QR code&#xa;do / upload the QR code&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BBlOOyhZ7gnegx1fQNet-5">
+        <mxCell id="BBlOOyhZ7gnegx1fQNet-6" value="entry / ask to select QR code&#xa;do / upload the QR code&#xa;exit / redirect to verification " style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="BBlOOyhZ7gnegx1fQNet-5">
           <mxGeometry y="30" width="160" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="BBlOOyhZ7gnegx1fQNet-11" value="Result" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#FFFFFF;fontColor=#030000;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
@@ -87,10 +87,11 @@
             <Array as="points"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BBlOOyhZ7gnegx1fQNet-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.438;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;strokeColor=#050000;strokeWidth=1;fontColor=#030000;" edge="1" parent="1" source="BBlOOyhZ7gnegx1fQNet-10" target="BBlOOyhZ7gnegx1fQNet-11">
+        <mxCell id="BBlOOyhZ7gnegx1fQNet-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;strokeColor=#050000;strokeWidth=1;fontColor=#030000;" edge="1" parent="1" source="BBlOOyhZ7gnegx1fQNet-10" target="BBlOOyhZ7gnegx1fQNet-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="600" y="710"/>
+              <mxPoint x="600" y="690"/>
+              <mxPoint x="600" y="690"/>
             </Array>
           </mxGeometry>
         </mxCell>
@@ -116,10 +117,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BBlOOyhZ7gnegx1fQNet-35" value="invalid QR code&amp;nbsp;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontColor=#030000;" vertex="1" parent="1">
-          <mxGeometry x="752" y="303" width="100" height="20" as="geometry"/>
+          <mxGeometry x="750" y="290" width="100" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="BBlOOyhZ7gnegx1fQNet-37" value="if face&amp;nbsp;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontColor=#030000;" vertex="1" parent="1">
-          <mxGeometry x="610" y="515" width="50" height="20" as="geometry"/>
+        <mxCell id="BBlOOyhZ7gnegx1fQNet-37" value="if user verified" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontColor=#030000;" vertex="1" parent="1">
+          <mxGeometry x="610" y="515" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="BBlOOyhZ7gnegx1fQNet-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;strokeColor=#050000;strokeWidth=1;fontColor=#030000;" edge="1" parent="1" source="BBlOOyhZ7gnegx1fQNet-8" target="BBlOOyhZ7gnegx1fQNet-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="443"/>
+              <mxPoint x="440" y="885"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BBlOOyhZ7gnegx1fQNet-40" value="if user is not verified" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontColor=#030000;" vertex="1" parent="1">
+          <mxGeometry x="375" y="420" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="BBlOOyhZ7gnegx1fQNet-41" value="calculate votes" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontColor=#030000;" vertex="1" parent="1">
+          <mxGeometry x="606" y="670" width="90" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
