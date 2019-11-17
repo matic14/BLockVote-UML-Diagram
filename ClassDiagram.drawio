@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-17T10:36:37.579Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="6JbY5ia7wY9C1CPgXjlS" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-17T10:41:52.737Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="AUyYrR3-XUsENOMoSBA7" version="12.2.6" type="github" pages="1">
   <diagram id="Z1w4wn2Jk04siW1SAhkx" name="Page-1">
     <mxGraphModel dx="1463" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,12 +53,6 @@
         </mxCell>
         <mxCell id="GWJ-hSMEk91o_8IRxYkR-16" value="+changeStatus()&#xa;+encrypt()&#xa;+store()&#xa;+createBlock()&#xa;+transaction()&#xa;+verify()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="GWJ-hSMEk91o_8IRxYkR-13" vertex="1">
           <mxGeometry y="98" width="160" height="102" as="geometry"/>
-        </mxCell>
-        <mxCell id="GWJ-hSMEk91o_8IRxYkR-17" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="GWJ-hSMEk91o_8IRxYkR-9" target="GWJ-hSMEk91o_8IRxYkR-14" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="170" y="330" as="sourcePoint"/>
-            <mxPoint x="330" y="330" as="targetPoint"/>
-          </mxGeometry>
         </mxCell>
         <mxCell id="GWJ-hSMEk91o_8IRxYkR-18" value="UserProfile" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="253" y="20" width="160" height="154" as="geometry"/>
@@ -170,6 +164,9 @@
         </mxCell>
         <mxCell id="GWJ-hSMEk91o_8IRxYkR-48" value="1" style="resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=#ffffff;fontSize=10;" parent="GWJ-hSMEk91o_8IRxYkR-46" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="JL9SYvrVBG8sAdRw311p-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.221;entryY=-0.164;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="GWJ-hSMEk91o_8IRxYkR-14" target="GWJ-hSMEk91o_8IRxYkR-45">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
