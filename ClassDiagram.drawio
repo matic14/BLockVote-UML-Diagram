@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-17T10:41:52.737Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="AUyYrR3-XUsENOMoSBA7" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-17T10:54:29.758Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="EnCojPIszP9p2YihebiU" version="12.2.6" type="github" pages="1">
   <diagram id="Z1w4wn2Jk04siW1SAhkx" name="Page-1">
     <mxGraphModel dx="1463" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="GWJ-hSMEk91o_8IRxYkR-5" value="Admin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="569" y="32" width="160" height="190" as="geometry"/>
         </mxCell>
-        <mxCell id="GWJ-hSMEk91o_8IRxYkR-6" value="+id: integer&#xa;+name: string&#xa;-password" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="GWJ-hSMEk91o_8IRxYkR-5" vertex="1">
+        <mxCell id="GWJ-hSMEk91o_8IRxYkR-6" value="+id: integer&#xa;+name: string&#xa;-password: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="GWJ-hSMEk91o_8IRxYkR-5" vertex="1">
           <mxGeometry y="26" width="160" height="54" as="geometry"/>
         </mxCell>
         <mxCell id="GWJ-hSMEk91o_8IRxYkR-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="GWJ-hSMEk91o_8IRxYkR-5" vertex="1">
